@@ -52,7 +52,6 @@ This function will save each student name and letter grade to a file.
 */
 void saveGrade(string, string[STUDENTNUM], char[STUDENTNUM]);
 
-
 int main()
 {
 	string studentNames[STUDENTNUM];
@@ -66,25 +65,17 @@ int main()
 	return 0;
 }
 
-
 void readScoreData(string filename, int Scores[STUDENTNUM][COURSENUM])
 {
-
-
-
 }
 void readStudentNames(string filename, string names[STUDENTNUM])
 {
-
-
 }
 void calcualteGrade(char Grade[STUDENTNUM], int Scores[STUDENTNUM][COURSENUM])
 {
-
 }
 
-void saveGrade(string filename, string names[STUDENTNUM], char Grades[STUDENTNUM])
+void saveGrade(string filename, string names[STUDENTNUM],
+	       char Grades[STUDENTNUM])
 {
-
-
 }
