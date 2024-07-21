@@ -118,7 +118,8 @@ int main()
 	parse_exam_scores("scores.txt", exam_scores);
 
 	for (int i = 0; i < g_STUDENT_COUNT; ++i) {
-		write_results("grades.txt", students[i], calculate_grade(i, exam_scores));
+		write_results("grades.txt", students[i],
+			      calculate_grade(i, exam_scores));
 	}
 
 	return 0;
